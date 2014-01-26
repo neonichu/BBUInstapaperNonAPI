@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		861554A51895A87300770B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861554A41895A87300770B8A /* Foundation.framework */; };
+		861554A71895A87300770B8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861554A61895A87300770B8A /* CoreGraphics.framework */; };
+		861554A91895A87300770B8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861554A81895A87300770B8A /* UIKit.framework */; };
+		861554B11895A87300770B8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 861554B01895A87300770B8A /* main.m */; };
+		861554B51895A87300770B8A /* BBUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 861554B41895A87300770B8A /* BBUAppDelegate.m */; };
+		861554B71895A87300770B8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861554B61895A87300770B8A /* Images.xcassets */; };
+		861554D61895B26D00770B8A /* BBUInstapaperArticleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 861554D51895B26D00770B8A /* BBUInstapaperArticleList.m */; };
+		861554D91895B91F00770B8A /* BBUHTMLResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 861554D81895B91F00770B8A /* BBUHTMLResponseSerializer.m */; };
+		861554DC1895C36700770B8A /* BBUArticlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861554DB1895C36700770B8A /* BBUArticlesViewController.m */; };
+		B82DEBDE275A4B8B9F14CA68 /* libPods-BBUInstapaperNonAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6750E8046EDA42D083C09838 /* libPods-BBUInstapaperNonAPI.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4711767EF1D34C5BA20AEAB7 /* Pods-BBUInstapaperNonAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBUInstapaperNonAPI.xcconfig"; path = "Pods/Pods-BBUInstapaperNonAPI.xcconfig"; sourceTree = "<group>"; };
+		6750E8046EDA42D083C09838 /* libPods-BBUInstapaperNonAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBUInstapaperNonAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		861554A11895A87300770B8A /* BBUInstapaperNonAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBUInstapaperNonAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		861554A41895A87300770B8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		861554A61895A87300770B8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		861554A81895A87300770B8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		861554AC1895A87300770B8A /* BBUInstapaperNonAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBUInstapaperNonAPI-Info.plist"; sourceTree = "<group>"; };
+		861554B01895A87300770B8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		861554B21895A87300770B8A /* BBUInstapaperNonAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBUInstapaperNonAPI-Prefix.pch"; sourceTree = "<group>"; };
+		861554B31895A87300770B8A /* BBUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBUAppDelegate.h; sourceTree = "<group>"; };
+		861554B41895A87300770B8A /* BBUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBUAppDelegate.m; sourceTree = "<group>"; };
+		861554B61895A87300770B8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		861554D41895B26D00770B8A /* BBUInstapaperArticleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBUInstapaperArticleList.h; sourceTree = "<group>"; };
+		861554D51895B26D00770B8A /* BBUInstapaperArticleList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBUInstapaperArticleList.m; sourceTree = "<group>"; };
+		861554D71895B91F00770B8A /* BBUHTMLResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBUHTMLResponseSerializer.h; sourceTree = "<group>"; };
+		861554D81895B91F00770B8A /* BBUHTMLResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBUHTMLResponseSerializer.m; sourceTree = "<group>"; };
+		861554DA1895C36700770B8A /* BBUArticlesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBUArticlesViewController.h; sourceTree = "<group>"; };
+		861554DB1895C36700770B8A /* BBUArticlesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBUArticlesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8615549E1895A87300770B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861554A71895A87300770B8A /* CoreGraphics.framework in Frameworks */,
+				861554A91895A87300770B8A /* UIKit.framework in Frameworks */,
+				861554A51895A87300770B8A /* Foundation.framework in Frameworks */,
+				B82DEBDE275A4B8B9F14CA68 /* libPods-BBUInstapaperNonAPI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		861554981895A87200770B8A = {
+			isa = PBXGroup;
+			children = (
+				861554AA1895A87300770B8A /* Code */,
+				861554A31895A87300770B8A /* Frameworks */,
+				861554A21895A87300770B8A /* Products */,
+				861554D31895A8A100770B8A /* Resources */,
+				861554AB1895A87300770B8A /* Supporting Files */,
+				4711767EF1D34C5BA20AEAB7 /* Pods-BBUInstapaperNonAPI.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		861554A21895A87300770B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				861554A11895A87300770B8A /* BBUInstapaperNonAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		861554A31895A87300770B8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				861554A61895A87300770B8A /* CoreGraphics.framework */,
+				861554A41895A87300770B8A /* Foundation.framework */,
+				861554A81895A87300770B8A /* UIKit.framework */,
+				6750E8046EDA42D083C09838 /* libPods-BBUInstapaperNonAPI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		861554AA1895A87300770B8A /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				861554B31895A87300770B8A /* BBUAppDelegate.h */,
+				861554B41895A87300770B8A /* BBUAppDelegate.m */,
+				861554DA1895C36700770B8A /* BBUArticlesViewController.h */,
+				861554DB1895C36700770B8A /* BBUArticlesViewController.m */,
+				861554D71895B91F00770B8A /* BBUHTMLResponseSerializer.h */,
+				861554D81895B91F00770B8A /* BBUHTMLResponseSerializer.m */,
+				861554D41895B26D00770B8A /* BBUInstapaperArticleList.h */,
+				861554D51895B26D00770B8A /* BBUInstapaperArticleList.m */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		861554AB1895A87300770B8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				861554AC1895A87300770B8A /* BBUInstapaperNonAPI-Info.plist */,
+				861554B21895A87300770B8A /* BBUInstapaperNonAPI-Prefix.pch */,
+				861554B01895A87300770B8A /* main.m */,
+			);
+			name = "Supporting Files";
+			path = Supporting_Files;
+			sourceTree = "<group>";
+		};
+		861554D31895A8A100770B8A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				861554B61895A87300770B8A /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		861554A01895A87300770B8A /* BBUInstapaperNonAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 861554CD1895A87300770B8A /* Build configuration list for PBXNativeTarget "BBUInstapaperNonAPI" */;
+			buildPhases = (
+				B6ED450536E84CF38CA649F3 /* Check Pods Manifest.lock */,
+				8615549D1895A87300770B8A /* Sources */,
+				8615549E1895A87300770B8A /* Frameworks */,
+				8615549F1895A87300770B8A /* Resources */,
+				A1094D62D2064E71B6E47C9F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBUInstapaperNonAPI;
+			productName = BBUInstapaperNonAPI;
+			productReference = 861554A11895A87300770B8A /* BBUInstapaperNonAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		861554991895A87300770B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BBU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Boris Bügling";
+			};
+			buildConfigurationList = 8615549C1895A87300770B8A /* Build configuration list for PBXProject "BBUInstapaperNonAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 861554981895A87200770B8A;
+			productRefGroup = 861554A21895A87300770B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				861554A01895A87300770B8A /* BBUInstapaperNonAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8615549F1895A87300770B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861554B71895A87300770B8A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1094D62D2064E71B6E47C9F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-BBUInstapaperNonAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6ED450536E84CF38CA649F3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8615549D1895A87300770B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861554B51895A87300770B8A /* BBUAppDelegate.m in Sources */,
+				861554D91895B91F00770B8A /* BBUHTMLResponseSerializer.m in Sources */,
+				861554D61895B26D00770B8A /* BBUInstapaperArticleList.m in Sources */,
+				861554B11895A87300770B8A /* main.m in Sources */,
+				861554DC1895C36700770B8A /* BBUArticlesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		861554CB1895A87300770B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		861554CC1895A87300770B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		861554CE1895A87300770B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4711767EF1D34C5BA20AEAB7 /* Pods-BBUInstapaperNonAPI.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting_Files/BBUInstapaperNonAPI-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting_Files/BBUInstapaperNonAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		861554CF1895A87300770B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4711767EF1D34C5BA20AEAB7 /* Pods-BBUInstapaperNonAPI.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting_Files/BBUInstapaperNonAPI-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting_Files/BBUInstapaperNonAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8615549C1895A87300770B8A /* Build configuration list for PBXProject "BBUInstapaperNonAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861554CB1895A87300770B8A /* Debug */,
+				861554CC1895A87300770B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		861554CD1895A87300770B8A /* Build configuration list for PBXNativeTarget "BBUInstapaperNonAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861554CE1895A87300770B8A /* Debug */,
+				861554CF1895A87300770B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 861554991895A87300770B8A /* Project object */;
+}
